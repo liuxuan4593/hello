@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 	mymap := make(map[string]int)
 
-	mymap["刘炫"] = 20172519
-	mymap["刘火"] = 20172117
+	mymap["炫"] = 2017
+	mymap["火"] = 2017
 	for i, v := range mymap {
 		fmt.Println(i, v)
 	}
